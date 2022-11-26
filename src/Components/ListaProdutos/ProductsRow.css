@@ -1,0 +1,28 @@
+.item{
+    display: inline-block;
+    margin-left: 13px;  
+}
+
+.fundo{
+    background-color: black;
+}
+
+.titulo{
+    text-align: center;
+    margin: 0px;
+    background-color: rgb(87, 74, 74);
+}
+
+.name{
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(226, 10, 10);
+}
+
+.description{
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(10, 226, 64);
+}
+
+

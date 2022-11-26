@@ -1,0 +1,58 @@
+.fundoImg{
+    background-color: black;
+    text-align: center;
+}
+.image{ 
+    margin-top: 30px; 
+    height: 500px;
+    width: 97%;
+}
+.desc{
+    text-align: left;
+    position: relative;
+    background-color: black;
+    margin-top: -150px;
+    height: 220px;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.nome{
+    margin-left: 50px;
+    color: aliceblue;
+}
+
+.preco{
+    margin-left: 50px;
+    color: rgb(54, 238, 9);
+    margin-bottom: 10px;
+}
+.descricao{
+    margin-left: 50px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.ingredientes{
+    margin-left: 50px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.tags{
+    display: flex;
+}
+
+.tag1{
+    background-color: rgb(245, 59, 2);
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.tag2{
+    background-color: rgb(224, 247, 16);
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
