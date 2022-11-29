@@ -29,12 +29,13 @@
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     padding-bottom: 5em;
+    padding-top: 0.25em;
 }
 
 .nome{
     color: aliceblue;
+    padding-left: 2em;
     display: flex;
-    padding-left: 3em;
 }
 .btn-comprar {
     right: 0;
@@ -46,6 +47,10 @@
     right: 0;
     position: absolute;
     margin-right: 3em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 1.5em;
 }
 .precoMenor {
     color: #ffffff;
