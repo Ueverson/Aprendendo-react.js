@@ -14,15 +14,12 @@ export default ({itens}) => {
                     {itens.length > 0 && itens.map((item, key) => (
                         <div>
                             <div className="desc">
-                                <div className="nome">
-                                    <h2>{item.name}
-                                        <button className="btn-quantidade">
-                                            <label style={{paddingRight: "10px"}}>-</label>
-                                            <label>01</label>
-                                            <label style={{paddingLeft: "10px"}}>+</label>
-                                        </button>
-                                    </h2>
+                                <div className="btn-quantidade">
+                                    <button>-</button>
+                                    <button>01</button>
+                                    <button>+</button>
                                 </div>
+                                <h2 className="nome">{item.name}</h2>
                                 <div className="teste2">
                                     <div className="div-preco">
                                         <div className="preco">R$29,90</div>
