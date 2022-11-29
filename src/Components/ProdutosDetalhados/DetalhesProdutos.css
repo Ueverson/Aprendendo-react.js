@@ -28,11 +28,13 @@
     width: 100%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    padding-bottom: 5em;
+    padding-bottom: 3em;
 }
 
 .nome{
     color: aliceblue;
+    display: flex;
+    padding-left: 3em;
 }
 .precoMenor {
     color: #ffffff;
