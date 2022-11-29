@@ -28,13 +28,24 @@
     width: 100%;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
-    padding-bottom: 3em;
+    padding-bottom: 5em;
 }
 
 .nome{
     color: aliceblue;
     display: flex;
     padding-left: 3em;
+}
+.btn-comprar {
+    right: 0;
+    position: absolute;
+    margin-right: 3em;
+    text-align: center;
+}
+.btn-quantidade {
+    right: 0;
+    position: absolute;
+    margin-right: 3em;
 }
 .precoMenor {
     color: #ffffff;
@@ -62,7 +73,8 @@
 
 .tags{
     display: flex;
-    padding-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .tag1{
