@@ -1,5 +1,6 @@
 import React from "react";
 import './DetalhesProdutos.css'
+import {FaShoppingCart} from 'react-icons/fa'
 
 export default ({itens}) => {
     const cor = '#f53b02';
@@ -14,7 +15,13 @@ export default ({itens}) => {
                         <div>
                             <div className="desc">
                                 <div className="nome">
-                                    <h2>{item.name}</h2>
+                                    <h2>{item.name}
+                                        <button className="btn-quantidade">
+                                            <label style={{paddingRight: "10px"}}>-</label>
+                                            <label>01</label>
+                                            <label style={{paddingLeft: "10px"}}>+</label>
+                                        </button>
+                                    </h2>
                                 </div>
                                 <div className="teste2">
                                     <div className="div-preco">
@@ -27,6 +34,14 @@ export default ({itens}) => {
                                         <div style={{backgroundColor: cor2}} className="tag1">Preparando</div>
                                         <div style={{backgroundColor: cor}} className="tag2">Pronto</div>
                                     </div>
+                                    <div>
+                                        <p style={{color: "white"}}>Serve até 3 pessoas</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button className="btn-comprar">
+                                        <p><FaShoppingCart/> Carrinho</p>
+                                    </button>
                                 </div>
                             </div>
                         </div>
